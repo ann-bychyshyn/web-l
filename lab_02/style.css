@@ -1,0 +1,125 @@
+.lato-thin {
+    font-family: "Lato", system-ui;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .lato-light {
+    font-family: "Lato", system-ui;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .lato-regular {
+    font-family: "Lato", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .lato-bold {
+    font-family: "Lato", system-ui;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .lato-black {
+    font-family: "Lato", system-ui;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .lato-thin-italic {
+    font-family: "Lato", system-ui;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .lato-light-italic {
+    font-family: "Lato", system-ui;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .lato-regular-italic {
+    font-family: "Lato", system-ui;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .lato-bold-italic {
+    font-family: "Lato", system-ui;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .lato-black-italic {
+    font-family: "Lato", system-ui;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+body {
+        font-family: 'Lato', sans-serif;
+        font-size:  14px;
+        color: #333333;
+        margin: 0px;
+        padding: 0px;
+}  
+
+header {
+    background-image: url("images/header.jpg");
+    background-size: cover;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: 75px 0 0 0;
+    color:white;
+    height: 150px;
+    width: auto;
+}
+
+.content {
+    padding-left: 120px;;
+    img {
+    width: 60%;
+    height: 60%;
+    }
+    p {
+      width: 60%;
+      font-size: 16px;
+    }
+}
+
+button {
+ background-color: #FFFF;
+ font-size: 16px;
+ color: #ec5353;
+ padding: 14px 40px;
+ border-radius: 24px;
+ border-color: #ec5353;
+ border-style: solid;
+}
+
+button:hover {
+  color: #FFFF;
+  background-color: #ec5353;
+  border-color: #FFFF;
+  border-style: solid;
+}
+
+
+aside {
+  h1 {
+    margin-bottom: 50px ;
+  }
+  float: right;
+  margin-top: -1280px;
+  margin-right: -350px;
+  img {
+  height: 45%;
+  width: 45%;
+  }
+  p {
+    width: 39%;
+  }
+}
