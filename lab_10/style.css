@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: grey;
+}
+
+h3 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 15px;
+  text-align: center;
+}
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px;
+  text-align: center;
+  padding: 10px 0px;
+}
+.pictures {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-rows: 350px 350px
+}
+
+button {
+  width: 190px;
+  height: 270px;
+  border: solid;
+}
+
+#image_1 {
+  background: url("image/Dmc1_box.jpg");
+  background-size: contain;
+  
+}
+
+#image_2 {
+  background: url("image/bloo.jpg");
+  background-size: cover;
+}
+
+#image_3 {
+  background: url("image/red\ dead\ redemption.jpg");
+  background-size: cover;
+}
+
+#image_4 {
+  background: url("image/witcher.jpg");
+  background-size: cover;
+}
+
+#image_5 {
+  background: url("image/274px-God_of_War_2018_cover.jpg");
+  background-size: cover;
+}
+
+#image_6 {
+  background: url("image/TheLastOfUs.jpg");
+  background-size: cover;
+}
+
+#image_7 {
+  background: url("image/cyberpunk.jpg");
+  background-size: cover;
+}
+
+#image_8 {
+  background: url("image/Ghost_of_Tsushima.jpg");
+  background-size: cover;
+}
+
+#Bloodborne, #The_Devil_May_Cry, #Red_Dead_Redemption_2, #The_Witcher, #God_of_War, #The_Last_of_Us, #Cyberpunk2077, #Ghost_of_Tsushima {
+  display: none;
+}
+
+#pc {
+  text-align: center;
+}
+
+.inside {
+  display: flex;
+  flex-direction: row;
+}
+
+.block h1 {
+  text-align: center;
+}
+
+.inside img {
+  width: 300px;
+  height: 450px;
+  padding: 20px 20px;
+  border: solid 2px;
+}
+
+.inside table {
+  margin: 0 50px;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: solid 2px;
+  padding: 8px;
+}
+
+#back_but {
+  width: 50px;
+  height: 30px;
+}
