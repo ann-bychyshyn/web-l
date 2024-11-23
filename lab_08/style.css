@@ -1,0 +1,38 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #C7B5B5;
+  margin: 0;
+  padding: 20px;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+.folder {
+  list-style: none;
+  padding-left: 15px;
+}
+
+.folder .files {
+  padding: 0;
+  margin: 5px 0 5px 20px;
+  list-style: none;
+}
+
+.folder-name {
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.files li {
+  margin: 5px 0;
+}
+
+img {
+  width: 15px;
+  height: auto;
+  margin-right: 3px;
+}

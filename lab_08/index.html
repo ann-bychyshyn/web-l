@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="file-manager">
+    <ul class="folder">
+        <li>
+            <button class="folder-name" onClick="switchFolder(this)"><img src="icons/folder-svgrepo-com.svg">Anime</button>
+            <ul class="files" style="display: none;">
+                <li><img src="icons/file-video-svgrepo-com.svg">Bleach.avi</li>
+                <li>
+                    <button class="folder-name" onClick="switchFolder(this)"><img src="icons/folder-svgrepo-com.svg">Fantasy</button>
+                    <ul class="files" style="display: none;">
+                        <li><img src="icons/file-video-svgrepo-com.svg"> The Game of Thrones.avi</li>
+                    </ul>
+                </li>
+                <li>
+                  <button class="folder-name" onClick="switchFolder(this, true)"><img src="icons/folder-svgrepo-com.svg"> New folder </button>
+                  <ul class="files" style="display: none;">
+                    <li>Folder is empty</li>
+                  </ul>
+              </li>
+          </ul>
+      </li>
+        <li>
+            <button class="folder-name" onClick="switchFolder(this)"><img src="icons/folder-svgrepo-com.svg">Other</button>
+            <ul class="files" style="display: none;">
+                <li><img src="icons/file-dock-1-svgrepo-com.svg">Homework.docx</li>
+                <li><img src="icons/file-pdf-svgrepo-com.svg"> Dune.pdf</li>
+            </ul>
+        </li>
+    </ul>
+</div>
+<script src="script.js"></script>  
+</body>
+</html>
