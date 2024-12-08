@@ -20,4 +20,6 @@ https://ann-bychyshyn.github.io/web-l/lab_09/ - lab_09 (memory card game)
 
 https://ann-bychyshyn.github.io/web-l/lab_10/ - lab_10 (tanks)
 
+https://ann-bychyshyn.github.io/web-l/lab_11/ - lab_11 (job filters)
+
 https://ann-bychyshyn.github.io/web-l/lab_12/ - lab_12 (pokemonapi)
