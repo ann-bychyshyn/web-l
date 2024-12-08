@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bar">
+    <div class="filters">
+      <h3>Languages</h3>
+      <button class="filbutton" data-type="language" data-value="HTML">HTML</button>
+      <button class="filbutton" data-type="language" data-value="CSS">CSS</button>
+      <button class="filbutton" data-type="language" data-value="JavaScript">JavaScript</button>
+      <button class="filbutton" data-type="language" data-value="Python">Python</button>
+      <button class="filbutton" data-type="language" data-value="Java">Java</button>
+      <button class="filbutton" data-type="language" data-value="C++">C++</button>
+      <button class="filbutton" data-type="language" data-value="C#">C#</button>
+    </div>
+
+    <div class="filters">
+      <h3>Experience Level</h3>
+      <button class="filbutton" data-type="level" data-value="Junior">Junior</button>
+      <button class="filbutton" data-type="level" data-value="Middle">Middle</button>
+      <button class="filbutton" data-type="level" data-value="Senior">Senior</button>
+    </div>
+
+    <div class="filters">
+      <h3>Role</h3>
+      <button class="filbutton" data-type="role" data-value="Frontend">Frontend</button>
+      <button class="filbutton" data-type="role" data-value="Backend">Backend</button>
+      <button class="filbutton" data-type="role" data-value="Fullstack">Fullstack</button>
+    </div>
+
+    <button id="clear">Clear All Filters</button>
+  </div>
+
+  <div class="job">
+    <div class="vacancy" data-languages="HTML,CSS,JavaScript" data-level="Senior" data-role="Frontend">
+      <h3>Senior Frontend Developer</h3>
+      <p>prog-lan: HTML, CSS, JavaScript</p>
+      <p>level: Senior</p>
+      <p>role: Frontend</p>
+    </div>
+    <div class="vacancy" data-languages="Python,Java" data-level="Junior" data-role="Backend">
+      <h3>Junior Backend Developer</h3>
+      <p>prog-lan: Python, Java</p>
+      <p>level: Junior</p>
+      <p>role: Backend</p>
+    </div>
+    <div class="vacancy" data-languages="C++,C#" data-level="Middle" data-role="Fullstack">
+      <h3>Middle Fullstack Developer</h3>
+      <p>prog-lan: C++, C#</p>
+      <p>level: Middle</p>
+      <p>role: Fullstack</p>
+    </div>
+    <div class="vacancy" data-languages="JavaScript,Python" data-level="Senior" data-role="Backend">
+      <h3>Senior Backend Developer</h3>
+      <p>prog-lan: JavaScript, Python</p>
+      <p>level: Senior</p>
+      <p>role: Backend</p>
+    </div>
+    <div class="vacancy" data-languages="HTML,CSS" data-level="Junior" data-role="Frontend">
+      <h3>Junior Frontend Developer</h3>
+      <p>prog-lan: HTML, CSS</p>
+      <p>level: Junior</p>
+      <p>role: Frontend</p>
+    </div>
+    <div class="vacancy" data-languages="Java,C#" data-level="Middle" data-role="Backend">
+      <h3>Middle Backend Developer</h3>
+      <p>prog-lan: Java, C#</p>
+      <p>level: Middle</p>
+      <p>role: Backend</p>
+    </div>
+    <div class="vacancy" data-languages="HTML,JavaScript" data-level="Middle" data-role="Frontend">
+      <h3>Middle Frontend Developer</h3>
+      <p>prog-lan: HTML, JavaScript</p>
+      <p>level: Middle</p>
+      <p>role: Frontend</p>
+    </div>
+    <div class="vacancy" data-languages="Python,C++" data-level="Senior" data-role="Fullstack">
+      <h3>Senior Fullstack Developer</h3>
+      <p>prog-lan: Python, C++</p>
+      <p>level: Senior</p>
+      <p>role: Fullstack</p>
+    </div>
+    <div class="vacancy" data-languages="CSS,JavaScript" data-level="Junior" data-role="Frontend">
+      <h3>Junior Frontend Developer</h3>
+      <p>prog-lan: CSS, JavaScript</p>
+      <p>level: Junior</p>
+      <p>role: Frontend</p>
+    </div>
+  </div>
+
+ <script src="script.js"></script> 
+</body>
+</html>
