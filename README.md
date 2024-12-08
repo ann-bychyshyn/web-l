@@ -16,6 +16,8 @@ https://ann-bychyshyn.github.io/web-l/lab_07/ - lab_07 (guess number)
 
 https://ann-bychyshyn.github.io/web-l/lab_08/ - lab_08 (file manager)
 
+https://ann-bychyshyn.github.io/web-l/lab_09/ - lab_09 (memory card game)
+
 https://ann-bychyshyn.github.io/web-l/lab_10/ - lab_10 (tanks)
 
 https://ann-bychyshyn.github.io/web-l/lab_12/ - lab_12 (pokemonapi)
